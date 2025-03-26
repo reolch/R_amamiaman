@@ -1,6 +1,6 @@
 .accessSection {
   padding: 60px 20px;
-  background-color: var(--background-color);
+  background-color: #f8f9fa;
 }
 
 .accessSectionContainer {
@@ -11,7 +11,7 @@
 .accessSectionTitle {
   text-align: center;
   font-size: 2rem;
-  color: var(--primary-color);
+  color: #333;
   font-weight: bold;
   margin-bottom: 40px;
 }
@@ -24,9 +24,9 @@
 
 .accessSectionInfoCard,
 .accessSectionMapCard {
-  background-color: var(--white-color);
+  background-color: #ffffff;
   padding: 30px;
-  border: 1px solid var(--border-color);
+  border: 1px solid #e9ecef;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -44,7 +44,7 @@
 
 .accessSectionIcon {
   margin-right: 15px;
-  color: var(--accent-color);
+  color: #4a90e2;
   font-size: 2rem;
 }
 
@@ -54,25 +54,27 @@
 
 .accessSectionInfoTitle {
   font-size: 1.2rem;
-  color: var(--primary-color);
+  color: #333;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .accessSectionInfoDescription {
   font-size: 1rem;
-  color: var(--secondary-color);
+  color: #666;
   line-height: 1.6;
   margin: 0;
 }
 
 .accessSectionInfoDescription a {
-  color: var(--accent-color);
+  color: #4a90e2;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .accessSectionInfoDescription a:hover,
 .accessSectionInfoDescription a:focus {
+  color: #357abd;
   text-decoration: underline;
 }
 
