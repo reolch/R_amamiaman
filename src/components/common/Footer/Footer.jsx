@@ -22,7 +22,7 @@ const Footer = () => {
             <div className={styles.footer__bottom}>
                 <div className={styles.footer__container}>
                     <p className={styles.footer__text}>
-                        Copyright © マリンサービスあまん All Rights Reserved.
+                        Copyright © ヤマハタマリンサービスあまん All Rights Reserved.
                     </p>
                 </div>
             </div>
