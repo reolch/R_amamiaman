@@ -25,19 +25,27 @@ const Header = () => {
     };
   }, []);
 
-  const toggleMenu = () => {
+  const toggleMenu = (e) => {
+    e.stopPropagation();
     setIsMenuOpen((prev) => !prev);
   };
 
   return (
     <header className={styles.header} role="banner">
       <div className={styles.topBar}>
+        
         <div className={styles.logo}>
           <h1>
             <a href="/hp-amamiaman" className={styles.rampart_one_regular}>
               ヤマハタマリンサービスあまん
             </a>
           </h1>
+        </div>
+        <div className={styles.contact}>
+          <FaPhone className={styles.phoneIcon} />
+          <a href="tel:0997724584" className={styles.phoneNumber}>
+            0997-72-4584
+          </a>
         </div>
         <div className={styles.menuButtonContainer}>
           <button
@@ -46,6 +54,7 @@ const Header = () => {
             aria-label="メニューを切り替え"
             aria-expanded={isMenuOpen}
             aria-controls="global-navigation"
+            type="button"
           >
             {isMenuOpen ? (
               <FaTimes className={styles.menuToggleIcon} />
@@ -53,12 +62,6 @@ const Header = () => {
               <FaBars className={styles.menuToggleIcon} />
             )}
           </button>
-        </div>
-        <div className={styles.contact}>
-          <FaPhone className={styles.phoneIcon} />
-          <a href="tel:0997724584" className={styles.phoneNumber}>
-            0997-72-4584
-          </a>
         </div>
       </div>
       <nav

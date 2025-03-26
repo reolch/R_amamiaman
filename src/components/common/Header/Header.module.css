@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Rampart+One&display=swap');
 
+.rampart_one_regular {
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #000;
+}
+
 /* ヘッダー全体のベースレイアウト */
 .header {
-  background-color: var(--background-color);
+  background-color: #ffffff; /* --background-color */
   width: 100%;
   margin-bottom: 16px;
 }
@@ -38,7 +46,7 @@
   border: none;
   cursor: pointer;
   font-size: 2rem;
-  color: var(--text-color);
+  color: #333333; /* --text-color */
   padding: 0.5rem;
   display: flex;
   align-items: center;
@@ -52,7 +60,7 @@
 .menuIcon:hover,
 .menuIcon:focus {
   outline: none;
-  color: var(--accent-color);
+  color: #ff6b6b; /* --accent-color */
 }
 
 /* 電話番号表示エリア */
@@ -65,12 +73,12 @@
 .phoneIcon {
   font-size: 1.5rem;
   margin-right: 0.5rem;
-  color: var(--text-color);
+  color: #333333; /* --text-color */
 }
 
 .phoneNumber {
   font-size: 1rem;
-  color: var(--text-color);
+  color: #333333; /* --text-color */
   text-decoration: none;
 }
 
@@ -109,7 +117,7 @@
 .navLink {
   text-decoration: none;
   border-bottom: 2px solid transparent;
-  color: var(--text-color);
+  color: #333333; /* --text-color */
   line-height: 2;
   font-size: 1rem;
   display: block;
@@ -120,8 +128,8 @@
 }
 .navLink:hover,
 .navLink:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: #ff6b6b; /* --accent-color */
+  border-color: #ff6b6b; /* --accent-color */
 }
 
 /* タブレット向けレイアウト */
@@ -203,7 +211,7 @@
 .dropdownButton {
   width: 100%;
   text-decoration: none;
-  color: var(--text-color);
+  color: #333333; /* --text-color */
   font-size: 1rem;
   padding: 1rem;
   display: flex;
@@ -235,7 +243,7 @@
 .dropdownLink {
   display: block;
   padding: 0.8rem 1rem;
-  color: var(--text-color);
+  color: #333333; /* --text-color */
   text-decoration: none;
   text-align: center;
   transition: all 0.2s ease;
@@ -243,7 +251,7 @@
 
 .dropdownLink:hover,
 .dropdownLink:focus {
-  color: var(--accent-color);
+  color: #ff6b6b; /* --accent-color */
   background-color: rgba(0, 0, 0, 0.02);
 }
 
@@ -279,8 +287,8 @@
   }
 
   .dropdownContainer:hover .dropdownButton {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
+    color: #ff6b6b; /* --accent-color */
+    border-color: #ff6b6b; /* --accent-color */
   }
 }
 
