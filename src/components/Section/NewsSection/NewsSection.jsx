@@ -44,7 +44,7 @@ const NewsSection = () => {
     const fetchNews = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch(`/hp-amamiaman/data/news.json`);
+        const response = await fetch(`/data/news.json`);
         if (!response.ok) {
           throw new Error('ニュースの取得に失敗しました');
         }

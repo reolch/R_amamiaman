@@ -59,16 +59,16 @@
 }
 
 .card:nth-child(1) {
-  background: linear-gradient(135deg, #f8e8ff 0%, #e8f4ff 100%);
+  background: linear-gradient(135deg, #e8fffb 0%, #e8f8ff 100%);
 }
 .card:nth-child(2) {
   background: linear-gradient(135deg, #e8fffb 0%, #e8f8ff 100%);
 }
 .card:nth-child(3) {
-  background: linear-gradient(135deg, #fff8e8 0%, #ffe8f0 100%);
+  background: linear-gradient(135deg, #e8fffb 0%, #e8f8ff 100%);
 }
 .card:nth-child(4) {
-  background: linear-gradient(135deg, #e8ffe8 0%, #f8ffe8 100%);
+  background: linear-gradient(135deg, #e8fffb 0%, #e8f8ff 100%);
 }
 
 .iconWrapper {
