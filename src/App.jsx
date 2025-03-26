@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './Font.css';
 import './App.css';
+import './styles/global.css';
 
 import Header from './components/common/Header/Header';
 import Footer from './components/common/Footer/Footer';
