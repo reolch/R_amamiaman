@@ -36,7 +36,7 @@ const Header = () => {
         
         <div className={styles.logo}>
           <h1>
-            <a href="/hp-amamiaman" className={styles.rampart_one_regular}>
+            <a href="/" className={styles.rampart_one_regular}>
               ヤマハタマリンサービスあまん
             </a>
           </h1>
