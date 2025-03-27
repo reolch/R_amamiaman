@@ -21,7 +21,7 @@ const ContactPage = () => {
         </p>
 
         <form 
-          action="https://ssgform.com/s/WSyiPsc5nBUb" 
+          action="https://ssgform.com/s/77rMhuyzTHRI" 
           method="post" 
           className={styles.form}
         >
