@@ -8,7 +8,7 @@ const SocialShare = () => {
         <section className={styles.socialShareSection}>
             <div className={styles.socialShareContainer}>
                 <div className={styles.socialShareButtons}>
-                    <a 
+                    {/* <a 
                         href="https://www.instagram.com/amamiaman"
                         target="_blank" 
                         rel="noopener noreferrer" 
@@ -37,7 +37,7 @@ const SocialShare = () => {
                     >
                         <FaLine className={styles.socialShareIcon} />
                         LINE
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </section>
