@@ -45,25 +45,25 @@ const ServiceSection = () => {
       type: 'snorkelling',
       title: 'シュノーケリング',
       description: '透明度抜群の海で熱帯魚と泳ごう',
-      link: '/services/snorkelling',
+      link: '/snorkelling',
     },
     {
       type: 'seakayak',
       title: 'シーカヤック',
       description: '手つかずの自然を探検しよう',
-      link: '/services/seakayak',
+      link: '/seakayak',
     },
     {
       type: 'glassboat',
       title: 'グラスボート',
       description: '美しいサンゴ礁の世界へ',
-      link: '/services/glassboat',
+      link: '/glassboat',
     },
     {
       type: 'lodging',
       title: '宿泊施設',
       description: 'ゆったりとくつろげる空間',
-      link: '/services/lodging',
+      link: '/lodging',
     },
   ];
 
